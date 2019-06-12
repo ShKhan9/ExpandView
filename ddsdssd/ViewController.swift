@@ -13,31 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        var arr = [String]()
-               var ss = [String]()
-        
-        arr += ss
-        
-        print(type(of:["dddddd"]))
-        
-        let str = """
-           ["ssss"]
-        """
-        print(try! JSONSerialization.jsonObject(with: Data(str.utf8)))
-           
-        
+    
     }
 
  
 }
-
-
-
-
-    struct Datum: Codable {
-        let id: Int
-        let name, code, phoneCode, flag: String
-    }
-
-
+ 
